@@ -89,7 +89,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'williampalacios$tiendaVirtualTest',
         'USER': 'williampalacios',
-        'PASSWORD': 'root',
+        'PASSWORD': 'rootroot',
         'HOST': 'williampalacios.mysql.pythonanywhere-services.com',
     }
 }
