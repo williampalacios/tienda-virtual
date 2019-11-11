@@ -30,7 +30,7 @@ class Proveedor(models.Model):
         """
         String para representar el Objeto Modelo
         """
-        return '%s, %s' % (self.last_name, self.nombreComp)
+        return '%s' % (self.nombreComp)
 
 from django.urls import reverse #Used to generate URLs by reversing the URL patterns
 
