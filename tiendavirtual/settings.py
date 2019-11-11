@@ -73,7 +73,7 @@ WSGI_APPLICATION = 'tiendavirtual.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
-
+"""
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -82,7 +82,17 @@ DATABASES = {
         },
     }
 }
+"""
 
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'williampalacios$tiendaVirtualTest',
+        'USER': 'williampalacios',
+        'PASSWORD': 'root',
+        'HOST': 'williampalacios.mysql.pythonanywhere-services.com',
+    }
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
