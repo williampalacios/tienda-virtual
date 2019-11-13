@@ -5,5 +5,3 @@ env2
 db.sqlite3
 /static
 .DS_Store
-__init__.py
-settings.py
