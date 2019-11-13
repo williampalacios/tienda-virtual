@@ -5,5 +5,5 @@ env2
 db.sqlite3
 /static
 .DS_Store
-tiendavirtual/__init__.py
-tiendavirtual/settings.py
+__init__.py
+settings.py
