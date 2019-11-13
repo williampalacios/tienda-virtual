@@ -1,6 +1,18 @@
 <html>
-<body>
-    <p>Hi there!</p>
-    <p>It works!</p>
-</body>
+	<head>
+		<title>Tienda de bicicletas</title>
+	</head>
+	<body>
+		<div>
+    			<h1><a href="/">Catálogo de productos</a></h1>
+		</div>
+		
+		{% for E in prods %}
+			<div>
+				<p> clave: {{ E.claveProducto }} </p>
+				<h2><a href=""> {{ E.nombre  }} </a></h2>
+				<p> proveedor: {{ E.proveedor }} </p>
+			</div>
+		{% endfor  %}
+	</body>
 </html>
